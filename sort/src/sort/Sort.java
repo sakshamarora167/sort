@@ -12,6 +12,7 @@ public class Sort {
         Scanner s = new Scanner(System.in);
         System.out.println("input the size of list : ");
         int size = s.nextInt();
+        
         int dyn_size=size;
         int list[] = new int[size];
         for(int i=0;i<size;i++){
